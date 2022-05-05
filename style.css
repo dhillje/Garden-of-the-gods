@@ -15,12 +15,17 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #581914e6;
+  background-color: #58191400;
   color: #e79778e0;
+  position: fixed;
 }
 
 .header {
   font-size: 1.4rem;
+}
+
+.nav-title {
+  margin-left: 20rem;
 }
 
 .nav-list {
@@ -28,12 +33,13 @@ body {
   justify-content: center;
   align-items: center;
   list-style: none;
+  margin-left: 50rem;
 }
 .links {
   display: inline-block;
   margin-right: 2rem;
   text-decoration: none;
-  color: #e79778e0;
+  color: #000000e0;
 
   font-size: 1.3rem;
 }
