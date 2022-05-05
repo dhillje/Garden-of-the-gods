@@ -79,7 +79,40 @@ body {
   border-radius: 5px;
 }
 
-.hero-img {
-  max-width: 75%;
-  max-height: 75%;
+/* .hero-img {
+  max-width: 100%;
+  max-height: 100%;
+} */
+
+@media (max-width: 1500px) {
+  .navbar {
+    position: relative;
+    background-color: #581914e6;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .nav-title {
+    margin: 0;
+  }
+
+  .nav-list {
+    margin-left: 1rem;
+  }
+
+  .links {
+    color: #e79778e0;
+  }
+
+  .hero-img-inner {
+    margin-top: 2rem;
+    width: 20rem;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
