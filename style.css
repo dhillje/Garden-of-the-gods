@@ -44,6 +44,10 @@ body {
   font-size: 1.3rem;
 }
 
+.links:hover {
+  transform: scale(1.2);
+}
+
 .hero {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -77,6 +81,12 @@ body {
   font-size: 20px;
   color: black;
   border-radius: 5px;
+}
+
+.hero-button:hover {
+  transform: scale(1.1);
+  transition: 1.2s;
+  background-color: #e79778e0;
 }
 
 /* .hero-img {
