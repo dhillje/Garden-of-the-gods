@@ -71,13 +71,14 @@ body {
   font-size: 1.2rem;
   line-height: 1.6;
   margin-left: 10px;
+  margin-top: 20px;
 }
 
 .hero-button {
-  margin-top: 20px;
+  margin-top: 34px;
   padding: 10px;
   text-decoration: none;
-  background-color: white;
+  background-color: #e79778e0;
   width: 6rem;
   font-size: 20px;
   color: black;
@@ -87,7 +88,6 @@ body {
 .hero-button:hover {
   transform: scale(1.1);
   transition: 1.2s;
-  background-color: #e79778e0;
 }
 
 /* .hero-img {
