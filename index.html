@@ -3,53 +3,79 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Omnifood is an AI-powered food subscription that will make you eat healthy again, 365 days per year. It's tailored to your personal tastes and nutritional needs."
+    />
+
+    <!-- Always include this line of code!!! -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap"
       rel="stylesheet"
     />
+
+    <link rel="stylesheet" href="general.css" />
     <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="css/queries.css" /> -->
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script defer src="js/script.js"></script>
+
     <title>Garden of the Gods</title>
   </head>
   <body>
-    <header class="navbar">
-      <h1 class="nav-title">Garden of the Gods</h1>
+    <header class="header">
+      <a href="#" class="main-nav-link">
+        <h1>Garden of the Gods</h1>
+      </a>
+
       <nav class="main-nav">
-        <ul class="nav-list">
-          <li><a href="#" class="links">Home</a></li>
-          <li><a href="#" class="links">Tour</a></li>
-          <li><a href="#" class="links">Contact</a></li>
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#meals">Tours</a></li>
+          <li>
+            <a class="main-nav-link" href="#testimonials">Contact</a>
+          </li>
+          <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
+          <li><a class="main-nav-link nav-cta" href="#cta">Check Hotels</a></li>
         </ul>
       </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
     </header>
+
     <main>
-      <section class="hero">
-        <div class="hero-text">
-          <h2>Walk Amongst Giants</h2>
-
-          <p class="hero-description">
-            Hidden within the arid landscape of Colorado Springs is the
-            beautiful <br />
-            landscape of the Garden of the Gods. See why millions feel
-            awestruck<br />
-            in their presence. Book a tour or explore on your own!
-          </p>
-          <a href="#" class="hero-button">Book Tour</a>
-        </div>
-        <div class="hero-img">
-          <img
-            src="img/garden.avif"
-            alt="The Garden of the Gods park at sunset"
-            class="hero-img-inner"
-          />
-        </div>
-      </section>
-
-      <section class="tours">
-        <div class="tour-text">
-          <h2>Tour Information</h2>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">Walk Amongst Giants</h1>
+            <p class="hero-description">
+              Check out our tour information and even look up hotels in the area
+              to stay at in this breathtaking garden!
+            </p>
+            <a href="#cta" class="btn btn--full margin-right-sm">Book Tour</a>
+          </div>
         </div>
       </section>
     </main>
