@@ -71,9 +71,9 @@ body {
 }
 
 .heading-secondary {
-  font-size: 4.4rem;
+  font-size: 3.4rem;
   line-height: 1.2;
-  margin-bottom: 9.6rem;
+  margin-bottom: 7.6rem;
 }
 
 .heading-tertiary {
@@ -84,11 +84,11 @@ body {
 
 .subheading {
   display: block;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 500;
-  color: #cf711f;
+  color: #e79878;
   text-transform: uppercase;
-  margin-bottom: 1.6rem;
+  margin-bottom: 1.4rem;
   letter-spacing: 0.75px;
 }
 
@@ -120,7 +120,7 @@ body {
 
 .btn--full:hover,
 .btn--full:active {
-  background-color: #cf711f;
+  background-color: #d88260;
 }
 
 .btn--outline:link,
