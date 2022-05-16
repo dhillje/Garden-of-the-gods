@@ -173,6 +173,7 @@
 
   /* top / horizontal / left */
   padding: 4.8rem 0 12.8rem;
+  background-color: #d88260;
 }
 
 .cta {
@@ -238,45 +239,49 @@
 /* HOTEL SECTION */
 /**************************/
 
-.hotel {
-  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
-  border-radius: 11px;
+.section-weath {
   background-color: #581814;
 }
 
-.hotel-text-box {
+.weath {
+  /* box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15); */
+  border-radius: 11px;
+  /* background-color: #581814; */
+}
+
+.weath-text-box {
   padding: 4.8rem 6.4rem 6.4rem 6.4rem;
   color: #e79878;
 }
 
-.hotel .heading-secondary {
+.weath .heading-secondary {
   /* color: #45260a; */
   color: inherit;
   margin-bottom: 3.2rem;
 }
 
-.hotel-text {
+.weath-text {
   font-size: 1.8rem;
   line-height: 1.8;
   margin-bottom: 4.8rem;
 }
 
-.hotel-form {
+.weath-form {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 3.2rem;
   row-gap: 2.4rem;
 }
 
-.hotel-form label {
+.weath-form label {
   display: block;
   font-size: 1.6rem;
   font-weight: 500;
   margin-bottom: 1.2rem;
 }
 
-.hotel-form input,
-.hotel-form select {
+.weath-form input,
+.weath-form select {
   width: 100%;
   padding: 1.2rem;
   font-size: 1.8rem;
@@ -288,6 +293,6 @@
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
-.hotel-form input::placeholder {
+.weath-form input::placeholder {
   color: #aaa;
 }
