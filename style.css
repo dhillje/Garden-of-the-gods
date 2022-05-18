@@ -296,3 +296,14 @@
 .weath-form input::placeholder {
   color: #aaa;
 }
+
+.weather-box {
+  text-align: center;
+  background-color: #d88260;
+  border-radius: 5px;
+  color: white;
+}
+
+#weather {
+  list-style: none;
+}
