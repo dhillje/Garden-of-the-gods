@@ -26,5 +26,3 @@ async function getWeather() {
 }
 
 button.addEventListener("click", updateWeather);
-
-// getWeather();
