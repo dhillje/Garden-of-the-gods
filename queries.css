@@ -10,11 +10,15 @@
   }
 
   .heading-primary {
-    font-size: 4.4rem;
+    font-size: 4rem;
   }
 
-  .gallery {
-    grid-template-columns: repeat(2, 1fr);
+  h1 {
+    font-size: 4rem;
+  }
+
+  .hero-description {
+    font-size: 1.7rem;
   }
 }
 
@@ -80,15 +84,7 @@
   }
 
   .hero-img {
-    width: 60%;
-  }
-
-  .logos img {
-    height: 2.4rem;
-  }
-
-  .step-number {
-    font-size: 7.4rem;
+    width: 70%;
   }
 
   .section-testimonials {
