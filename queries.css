@@ -91,9 +91,9 @@
     grid-template-columns: 1fr;
   }
 
-  .cta {
-    /* 3/5 = 60% + 2/5 = 40% */
-    grid-template-columns: 3fr 2fr;
+  .section-cta {
+    background: none;
+    background-color: #d88260;
   }
 
   .cta-form {
