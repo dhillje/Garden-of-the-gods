@@ -15,7 +15,7 @@ async function getWeather() {
   try {
     const config = { headers: { Accept: "application/json" } };
     const response = await axios.get(
-      "http://dataservice.accuweather.com/currentconditions/v1/327351?apikey=8arva3wAj3hpbjOnGIFqI0av5aD0UYxt",
+      "https://dataservice.accuweather.com/currentconditions/v1/327351?apikey=8arva3wAj3hpbjOnGIFqI0av5aD0UYxt",
       config
     );
     console.log(response);
