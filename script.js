@@ -5,9 +5,9 @@ const button = document.querySelector("#weather-button");
 
 const updateWeather = async () => {
   const weatherText = await getWeather();
-  console.log(weatherText);
-  const newLI = document.createElement("LI");
-  newLI.append(weatherText);
+  // console.log(weatherText);
+  const newLI = document.createElement("H2");
+  newLI.append(`Currently, the Colorado Springs area is ${weatherText}`);
   weather.append(newLI);
 };
 
@@ -18,6 +18,7 @@ async function getWeather() {
       "http://dataservice.accuweather.com/currentconditions/v1/327351?apikey=8arva3wAj3hpbjOnGIFqI0av5aD0UYxt",
       config
     );
+    console.log(response);
     // console.log(response.data[0].WeatherText);
     return response.data[0].WeatherText;
   } catch (error) {
